@@ -1,0 +1,125 @@
+<section id="top-image" class="pdd0">
+	<div id="myCarousel" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="active item">
+				[get_image id="5071" align=" full-width"]
+			</div>
+			<div class="item">
+				[get_image id="5070" align=" full-width"]
+			</div>
+			<div class="item">
+				[get_image id="5072" align=" full-width"]
+			</div>
+		</div>
+	</div>
+	<!--div class="center toptext-wrapper">
+		<h1>{1}<span></span></h1>
+		<a href="#home-offers" class="scroll scroll-to-info arrow-white">{2}<i></i></a>
+	</div-->
+	<!--MOTOR-->
+	[mi_exec_widget id=mirai_texto number=10]
+	[mi_exec_widget id=mirai_engine number=2]
+	[mi_exec_widget id=mirai_texto number=11]
+	<!--END MOTOR-->
+	</div>
+</section>
+<section id="location-guide">
+	<div class="container center">
+		<h1 class="deco">{3}<span></span></h1>
+		<h2>{4}</h2>
+		<div class="span12 pdd5">
+			<figure>
+				[get_image id="174" align="full-width" ]
+			</figure>
+		</div>
+		<div class="row-fluid mrg2">
+			<div class="span6 pdd3">
+				<figure>
+					[get_image id="279" align="full-width" ]
+				</figure>
+			</div>
+			<div class="span6 pdd4">
+				<figure>
+					[get_image id="279" align="full-width" ]
+				</figure>
+			</div>
+		</div>
+		<div class="span12 mrg2">
+			<a href="[get_page page="16"]" class="link-btn btn1" title="{5}">{5}</a>
+		</div>
+	</div>
+	<hr>
+</section>
+
+<section id="location-map" class="bg-grey pdd6">
+	<div class="container center">
+		<h1 class="deco">{6}<span></span></h1>
+		<h2>{7}</h2>
+	</div>
+	<div class="row-fluid mapa mrg2">
+		<div class="container center">
+			<div class="span6 pdd3">
+				[get_image id="174" align="full-width" ]
+				[LinkMapaGoogleMaps texto="{8}" lugar="40.483936,-3.567952"]
+			</div>
+			<div class="span6 pdd4">
+				[get_image id="174" align="full-width" ]
+				[LinkMapaGoogleMaps texto="{9}" lugar="40.46778,-3.617296"]
+			</div>
+			<ul class="row-fluid">
+				<li class="span6">[LinkMapaGoogleMaps texto="{10}" lugar="40.407735,-3.694772"]</li>
+				<li class="span6">[LinkMapaGoogleMaps texto="{11}" lugar="40.407052,-3.69135"]</li>
+				<li class="span6">[LinkMapaGoogleMaps texto="{12}" lugar="40.413782,-3.692127"]</li>
+				<li class="span6">[LinkMapaGoogleMaps texto="{13}" lugar="40.416041,-3.694925"]</li>
+				<li class="span6">[LinkMapaGoogleMaps texto="{14}" lugar="40.415261,-3.6845"]</li>
+				<li class="span6">[LinkMapaGoogleMaps texto="{15}" lugar="40.411106,-3.691127"]</li>
+				<li class="span6">[LinkMapaGoogleMaps texto="{16}" lugar="40.411141,-3.69356"]</li>
+				<li class="span6">[LinkMapaGoogleMaps texto="{17}" lugar="40.416947,-3.703528"]</li>
+			</ul>
+		</div>
+		[GoogleMaps height=400px]
+	</div>
+	<div class="span12 center">
+		<a href="[get_page page="16"]" class="link-btn btn1" title="{5}">{5}</a>
+	</div>
+</section>
+
+<section id="location-services">
+	<div class="container center">
+		<h1 class="deco">{20}<span></span></h1>
+		<div class="row-fluid mrg2">
+			<div>
+				<ul>
+					<li>{21} : {22}</li>
+					<li>{23} : {24}</li>
+					<li>{25} :</li>
+					<li>{26} {27}</li>
+					<li>{28}</li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>{29} : {30}</li>
+					<li>{31} :</li>
+					<li>{32}</li>
+					<li>{33}</li>
+					<li>{34}</li>
+				</ul>
+			</div>
+		
+		</div>
+	</div>
+</section>
+
+<section id="location-reviews" class="bg-picture pdd0 pos-r">
+	[get_image id="292" alt="{32}"]
+	<div class="box">
+		<div>
+			<blockquote>
+				<i class="user"></i>
+				<h2>&ldquo;{18}&rdquo;</h2>
+				<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={34}&amp;hotelid=100322665&amp;link="></script>
+			</blockquote>
+		</div>
+	</div>
+</section>

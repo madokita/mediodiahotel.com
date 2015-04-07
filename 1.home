@@ -1,0 +1,126 @@
+<section id="top-image" class="pdd0">
+	<div id="myCarousel" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="active item">
+				[get_image id="5071" align=" full-width"]
+			</div>
+			<div class="item">
+				[get_image id="5070" align=" full-width"]
+			</div>
+			<div class="item">
+				[get_image id="5072" align=" full-width"]
+			</div>
+		</div>
+	</div>
+	<div class="center toptext-wrapper">
+		<h1>{1}<span></span></h1>
+		<a href="#home-offers" class="scroll scroll-to-info arrow-white">{2}<i></i></a>
+	</div>
+	<!--MOTOR-->
+	[mi_exec_widget id=mirai_texto number=10]
+	[mi_exec_widget id=mirai_engine number=2]
+	[mi_exec_widget id=mirai_texto number=11]
+	<!--END MOTOR-->
+	</div>
+</section>
+<section id="home-offers">
+	<div class="container center">
+		<h1 class="deco">{3}<span></span></h1>
+		<h2>{4}</h2>
+		<div class="span8 offset2 mrg2">
+			<div class="row-fluid">
+				[mi_exec_widget id=mirai_custom_offers_mashup number=4]
+			</div>
+		</div>
+		<div class="span12">
+			<a href="[get_page page="16"]" class="link-btn btn1" title="{5}">{5}</a>
+		</div>
+	</div>
+</section>
+
+<section id="home-links">
+	<div class="container bg-grey">
+		<div class="span12 pdd1">
+				<div class="span4 center">
+						<p class="ico-wifi ico-g ">{6}</p>
+				</div>
+				<div class="span4 center">
+					<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={52}&amp;hotelid=10907510&amp;link="></script>
+				</div>
+				<div class="span4 pos-r center">
+						<p class="ico-photos ico-g">{7}[ngg_images gallery_ids="2" display_type="photocrati-nextgen_basic_singlepic"]</p>
+				</div>
+		</div>
+</div>
+</section>
+
+<section id="home-room">
+	<div class="container center">
+		<h1 class="deco">{8}<span></span></h1>
+		<h2>{9}</h2>
+		<div id="myCarousel" class="carousel slide mrg2">
+			<div class="carousel-inner">
+				<div class="active item">
+				[get_image id="174" align="full-width"]
+				</div>
+				<div class="item">
+				[get_image id="175" align="full-width"]
+				</div>
+				<div class="item">
+				[get_image id="176" align="full-width"]
+				</div>
+				<div class="item">
+				[get_image id="177" align="full-width"]
+				</div>
+			</div>
+			<div class="layer-gallery"></div>
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>
+		<div class="span12 mrg2">
+			<a href="[get_page page="16"]" class="link-btn btn2" title="{10}">{10}</a>
+			<a href="[get_page page="16"]" class="link-btn btn1" title="{11}">{11}</a>
+		</div>
+	</div>
+	<hr>
+</section>
+<section id="home-location">
+	<div class="container center">
+		<h1 class="deco">{12}<span></span></h1>
+		<h2>{13}</h2>
+	</div>
+	<div class="span12 bg-grey">
+		<div class="container center pdd7">
+			<ul class="places row">
+				<li class="span4 pdd3">
+					<figure class="pos-r">
+						[get_image id="266" align="full-width"]
+						<div class="pdd1">
+							<p class="font-eggplant-dark size18"><strong>{15}</strong></p>
+							<a href="[get_page page="16"]" class="link-btn btn2 size16" title="{16}">{16}</a>
+						</div>
+					</figure>
+				</li>
+				<li class="span4 pdd3 pdd4">
+					<figure class="pos-r">
+						[get_image id="268" align="full-width"]
+						<div class="pdd1">
+							<p class="font-eggplant-dark size18"><strong>{17}</strong></p>
+							<a href="[get_page page="16"]" class="link-btn btn2 size16" title="{16}">{18}</a>
+						</div>
+					</figure>
+				</li>
+				<li class="span4 pdd4">
+					<figure class="pos-r">
+						[get_image id="267" align="full-width"]
+						<div class="pdd1">
+							<p class="font-eggplant-dark size18"><strong>{19}</strong></p>
+							<a href="[get_page page="16"]" class="link-btn btn2 size16" title="{16}">{20}</a>
+						</div>
+					</figure>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+</section>
