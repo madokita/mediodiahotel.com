@@ -10,6 +10,10 @@ Author: Mirai Espana
 /*---------------------------- GENERIC STYLES -------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+h1 {
+	color:#fff;
+	font-size:44px;
+}
 h1.deco {
 	background: url("/files/sprite-icons00.png") 0 -333px no-repeat;
 	color: #3C3C36;
@@ -27,19 +31,21 @@ h1.deco span {
 }
 
 h2 {
-	color:#858585;
 	font-size:21px;
 	margin-bottom:60px;
 }
 blockquote h2 {
-	color:#fff;
+	color:#E3E1D5;
 	margin-bottom:0;
 	text-align:center;
 }
 
 h3 {}
 
-h4 {}
+h4 {
+	color:#000;
+	font-size:15px;
+}
 
 h1, h2, h3, h4 {}
 
@@ -91,7 +97,7 @@ p {
 img {
 	width: auto
 }
-.bg-picture img {
+.bg-picture img, #top-image img {
 	width:100%;
 }
 
@@ -102,10 +108,14 @@ hr {
 	width: 400px;
 }
 blockquote {
-	border: 1px solid #fff;
-	margin: 20px auto;
-	padding: 40px;
+	border: 1px solid #E3E1D5;
+	margin:0 auto;
+	max-width: 1200px;
+	padding: 30px 30px 45px;
 	width: 60%;
+}
+.modal {
+	border-radius: 0px;
 }
 
 /*BACKGROUND*/
@@ -114,6 +124,9 @@ blockquote {
 }
 .bg-grey {
 	background:#f2f1e9;
+}
+.bg-mosaic {
+	background: url("/files/bg-grey.jpg") 0 0 ;
 }
 /* BOX */
 .box {
@@ -128,6 +141,13 @@ blockquote {
 	-ms-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
+}
+/*HEADER PHOTO*/
+.top-title {
+	left:0;
+	position:absolute;
+	right:0;
+	top:40%;
 }
 
 /* ICONS*/
@@ -177,6 +197,9 @@ blockquote {
 .font-eggplant-dark {
 	color: #423540;
 }
+.font-white {
+	color:#fff;
+}
 #footer a {
 	color:#E3E1D5;
 }
@@ -223,7 +246,6 @@ a{
 	max-width: 100%;
 }
 
-
 /* FLEX */
 
 #main .flex {
@@ -255,10 +277,10 @@ a{
 	transition: all 0.5s ease 0s;
 }
 .toptext-wrapper {
-   bottom: 200px;
-   left: 0;
-   position: absolute;
-   width: 100%;
+	bottom: 200px;
+	left: 0;
+	position: absolute;
+	width: 100%;
 }
 .scroll-to-info {  
 	background: url(/files/s-icons.png) right -484px no-repeat rgba(0,0,0,.4) ;
@@ -305,14 +327,22 @@ a{
 	opacity: 1;
 }
 
-
 /*GENERAL CLASSES*/
 .center {
 	text-align:center;
 }
 
+.left {
+	text-align:left;
+}
+
 .pos-r {
 	position:relative;
+}
+
+.list-circle, .list-circle li {
+	line-height:180%;
+	list-style: circle;
 }
 
 /*MARGIN*/
@@ -322,7 +352,9 @@ a{
 .mrg2{/*Bottom*/
 	margin-bottom:60px;
 }
-
+.mrg3 {
+	margin-bottom:0px;
+}
 
 /*PADDING*/
 .pdd0 { /*No padding*/
@@ -349,6 +381,9 @@ a{
 .pdd7 {
 	padding-bottom:60px;
 	padding-top:60px;
+}
+.pdd8 {
+	padding-bottom:0px;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -434,6 +469,20 @@ div.hssurveys_full div.note {
 	position:absolute;
 	top:0;
 }
+.layer-img {
+background: -moz-linear-gradient(left,  rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.4) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#66000000',GradientType=1 ); /* IE6-9 */
+	bottom:0;
+	left:0;
+	right:0;
+	position:absolute;
+	top:0;
+}
 /*------OFFERS-------*/
 .offers-mashup dl {
 	background:#fff;
@@ -506,15 +555,36 @@ blockquote #hsRating {
 blockquote #hsRating a.mirai_btReview, blockquote #hsRating a.mirai_btReview:link {
 	background:url("/files/sprite-icons05.png") right -639px no-repeat;
 	color:#fff !important;
-	font-size: 20px;
-	height:50px !important;
+	font-size: 18px;
+	height:35px !important;
 	text-decoration:underline;
 	text-transform: inherit;
+}
+.mapa .map_canvas {
+	margin-bottom:0 !important;
 }
 
 /* ROOMS */
 
-/* SERVICES */
+/* MADRID */
+.show-route {
+	background:#fff;
+	font-size: 14px;
+	height:100px;
+	line-height: 1.2em;
+	padding:20px;
+	position:absolute;
+	right:20px;
+	top:20px;
+	width:120px;
+}
+.show-route i {
+	background:url("/files/sprite-icons06.png") 0 -696px no-repeat; 
+	display:block;
+	height:40px;
+	margin: 0px auto 3px;
+	width:30px;
+}
 
 /* PHOTOS */
 
@@ -878,10 +948,6 @@ ul#menu_web > li a:hover, ul#menu_web > li.current_page_item a {
 h2 {
 	font-size:24px;
 	}
-.box > div {
-	position:absolute;
-	top:30%;
-}
 }
 /* ipad portrait - landscape */
 @media (min-device-width: 768px) and (max-device-width: 979px){}

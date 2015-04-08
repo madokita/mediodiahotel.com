@@ -1,0 +1,116 @@
+<section id="top-image" class="pdd0">
+	<div class="pos-r">
+		<figure>
+				[get_image id="335" align="full-width" ]
+		</figure>
+		<div class="layer-img"></div>
+		<div class="top-title">
+			<div class="center">
+				<h1>{1}</h1>
+				<h2 class="font-white">{2}</h2>
+			</div>
+		</div>
+	</div>
+	<!--MOTOR-->
+	[mi_exec_widget id=mirai_texto number=10]
+	[mi_exec_widget id=mirai_engine number=2]
+	[mi_exec_widget id=mirai_texto number=11]
+	<!--END MOTOR-->
+	</div>
+</section>
+<section id="madrid-intro">
+	<div class="container center">
+		<h1 class="deco">{3}<span></span></h1>
+		<h2>{4}</h2>
+		<div class="row-fluid mrg2">
+			<div class="span6 pdd3">
+				<figure>
+					[get_image id="348" align="full-width" ]
+				</figure>
+			</div>
+			<div class="span6 pdd4">
+				<figure>
+					[get_image id="338" align="full-width" ]
+				</figure>
+			</div>
+		</div>
+		<div class="span12 mrg2">
+			<a href="[get_page page="14"]" class="link-btn btn1" title="{5}">{5}</a>
+		</div>
+	</div>
+	<hr>
+</section>
+
+<section id="madrid-reinasofia" class="bg-grey">
+	<div class="container center">
+		<h1 class="deco">{6}<span></span></h1>
+		<h2>{7}</h2>
+		<p>{8}</p>
+		<div class="span12 pdd5 pos-r">
+			<figure>
+				[get_image id="342" align="full-width" ]
+			</figure>
+			<div class="show-route">
+				<i></i>
+				<p>2 {25}</p>
+				<a href="#route-reinasofia" data-toggle="modal">{26}</a>
+			</div>
+			<div id="route-reinasofia" class="route-modal modal fade">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+					<h4>{6} - 2 {25}</h4>
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m33!1m12!1m3!1d3038.029513607723!2d-3.6960502656919134!3d40.40819696168923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m18!1i0!3e2!4m5!1s0xd422628db3a07bd%3A0x309814d159babf71!2sMuseo+Nacional+Centro+de+Arte+Reina+Sof%C3%ADa%2C+Calle+de+Santa+Isabel%2C+Madrid!3m2!1d40.407734999999995!2d-3.694772!4m3!3m2!1d40.408616599999995!2d-3.6938638!4m5!1s0xd4226260494268d%3A0x25a7477d01c1dc75!2sHotel+Mediodia%2C+Plaza+Emperador+Carlos+V%2C+8%2C+28012+Madrid!3m2!1d40.408514!2d-3.6930609999999997!5e0!3m2!1sen!2ses!4v1428497588291" width="650" height="400" frameborder="0" style="border:0"></iframe>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="madrid-reviews" class="bg-picture pdd0 pos-r">
+	[get_image id="292" alt="{32}"]
+	<div class="box flex">
+		<div>
+			<blockquote>
+				<i class="user"></i>
+				<h2>&ldquo;{9}&rdquo;</h2>
+				<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={27}&amp;hotelid=100322665&amp;link="></script>
+			</blockquote>
+		</div>
+	</div>
+</section>
+
+<section id="location-services">
+	<div class="container center">
+		<h1 class="deco">{20}<span></span></h1>
+		<div class="row-fluid mrg2">
+			<div class="span6 left size18">
+				<ul class="list-circle">
+					<li><span class="font-eggplant-dark">{21}:</span>{22}</li>
+					<li><span class="font-eggplant-dark">{23}:</span>{24}</li>
+					<li><span class="font-eggplant-dark">{25}:</span>{26} {27}</li>
+				</ul>
+			</div>
+			<div class="span6 left size18">
+				<ul class="list-circle">
+					<li><span class="font-eggplant-dark">{28}:</span>0</li>
+					<li><span class="font-eggplant-dark">{29}:</span>{30}</li>
+					<li class="font-eggplant-dark">{31}:</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+	</div>
+</section>
+
+<section id="location-reviews" class="bg-picture pdd0 pos-r">
+	[get_image id="292" alt="{32}"]
+	<div class="box flex">
+		<div>
+			<blockquote>
+				<i class="user"></i>
+				<h2>&ldquo;{18}&rdquo;</h2>
+				<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={34}&amp;hotelid=100322665&amp;link="></script>
+			</blockquote>
+		</div>
+	</div>
+</section>
