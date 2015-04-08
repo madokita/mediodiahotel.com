@@ -23,7 +23,7 @@
 	<!--END MOTOR-->
 	</div>
 </section>
-<section id="home-offers">
+<section id="home-offers" class="bg-mosaic">
 	<div class="container center">
 		<h1 class="deco">{3}<span></span></h1>
 		<h2>{4}</h2>

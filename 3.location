@@ -1,21 +1,16 @@
 <section id="top-image" class="pdd0">
-	<div id="myCarousel" class="carousel slide">
-		<div class="carousel-inner">
-			<div class="active item">
-				[get_image id="5071" align=" full-width"]
-			</div>
-			<div class="item">
-				[get_image id="5070" align=" full-width"]
-			</div>
-			<div class="item">
-				[get_image id="5072" align=" full-width"]
+	<div class="pos-r">
+		<figure>
+				[get_image id="322" align="full-width" ]
+		</figure>
+		<div class="layer-img"></div>
+		<div class="top-title">
+			<div class="center">
+				<h1>{1}</h1>
+				<h2 class="font-white">{2}</h2>
 			</div>
 		</div>
 	</div>
-	<!--div class="center toptext-wrapper">
-		<h1>{1}<span></span></h1>
-		<a href="#home-offers" class="scroll scroll-to-info arrow-white">{2}<i></i></a>
-	</div-->
 	<!--MOTOR-->
 	[mi_exec_widget id=mirai_texto number=10]
 	[mi_exec_widget id=mirai_engine number=2]
@@ -29,7 +24,7 @@
 		<h2>{4}</h2>
 		<div class="span12 pdd5">
 			<figure>
-				[get_image id="174" align="full-width" ]
+				[get_image id="318" align="full-width" ]
 			</figure>
 		</div>
 		<div class="row-fluid mrg2">
@@ -40,23 +35,23 @@
 			</div>
 			<div class="span6 pdd4">
 				<figure>
-					[get_image id="279" align="full-width" ]
+					[get_image id="315" align="full-width" ]
 				</figure>
 			</div>
 		</div>
 		<div class="span12 mrg2">
-			<a href="[get_page page="16"]" class="link-btn btn1" title="{5}">{5}</a>
+			<a href="[get_page page="15"]" class="link-btn btn1" title="{5}">{5}</a>
 		</div>
 	</div>
 	<hr>
 </section>
 
-<section id="location-map" class="bg-grey pdd6">
+<section id="location-map" class="bg-grey pdd8">
 	<div class="container center">
 		<h1 class="deco">{6}<span></span></h1>
 		<h2>{7}</h2>
 	</div>
-	<div class="row-fluid mapa mrg2">
+	<div class="row-fluid mapa">
 		<div class="container center">
 			<div class="span6 pdd3">
 				[get_image id="174" align="full-width" ]
@@ -77,10 +72,7 @@
 				<li class="span6">[LinkMapaGoogleMaps texto="{17}" lugar="40.416947,-3.703528"]</li>
 			</ul>
 		</div>
-		[GoogleMaps height=400px]
-	</div>
-	<div class="span12 center">
-		<a href="[get_page page="16"]" class="link-btn btn1" title="{5}">{5}</a>
+		[GoogleMaps height=450px]
 	</div>
 </section>
 
@@ -88,32 +80,28 @@
 	<div class="container center">
 		<h1 class="deco">{20}<span></span></h1>
 		<div class="row-fluid mrg2">
-			<div>
-				<ul>
-					<li>{21} : {22}</li>
-					<li>{23} : {24}</li>
-					<li>{25} :</li>
-					<li>{26} {27}</li>
-					<li>{28}</li>
+			<div class="span6 left size18">
+				<ul class="list-circle">
+					<li><span class="font-eggplant-dark">{21}:</span>{22}</li>
+					<li><span class="font-eggplant-dark">{23}:</span>{24}</li>
+					<li><span class="font-eggplant-dark">{25}:</span>{26} {27}</li>
 				</ul>
 			</div>
-			<div>
-				<ul>
-					<li>{29} : {30}</li>
-					<li>{31} :</li>
-					<li>{32}</li>
-					<li>{33}</li>
-					<li>{34}</li>
+			<div class="span6 left size18">
+				<ul class="list-circle">
+					<li><span class="font-eggplant-dark">{28}:</span>0</li>
+					<li><span class="font-eggplant-dark">{29}:</span>{30}</li>
+					<li class="font-eggplant-dark">{31}:</li>
 				</ul>
 			</div>
-		
 		</div>
+		<hr>
 	</div>
 </section>
 
 <section id="location-reviews" class="bg-picture pdd0 pos-r">
 	[get_image id="292" alt="{32}"]
-	<div class="box">
+	<div class="box flex">
 		<div>
 			<blockquote>
 				<i class="user"></i>
