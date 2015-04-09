@@ -15,7 +15,7 @@ h1 {
 	font-size:44px;
 }
 h1.deco {
-	background: url("/files/sprite-icons00.png") 0 -333px no-repeat;
+	background: url("/files/sprite-icons00.png") 0 -471px no-repeat;
 	color: #3C3C36;
 	display: inline-block;
 	font-family: 'Lato', sans-serif;
@@ -23,11 +23,19 @@ h1.deco {
 	margin:0 auto 30px;
 	padding-left: 105px;
 }
+
+.bg-grey h1.deco {
+	background-position:0 -333px;
+}
+
 h1.deco span {
-	background: url("/files/sprite-icons00.png") right -395px no-repeat;
+	background: url("/files/sprite-icons00.png") right -533px no-repeat;
 	display: inline-block;
 	height:35px;
 	width:105px;
+}
+.bg-grey h1.deco span{
+	background-position:right -395px;
 }
 
 h2 {
@@ -350,7 +358,7 @@ a{
 	margin-bottom:30px;
 }
 .mrg2{/*Bottom*/
-	margin-bottom:60px;
+	margin-bottom:60px !important;
 }
 .mrg3 {
 	margin-bottom:0px;

@@ -80,18 +80,18 @@
 	<div class="container center">
 		<h1 class="deco">{20}<span></span></h1>
 		<div class="row-fluid mrg2">
-			<div class="span6 left size18">
+			<div class="span6 left size18 pdd1">
 				<ul class="list-circle">
-					<li><span class="font-eggplant-dark">{21}:</span>{22}</li>
-					<li><span class="font-eggplant-dark">{23}:</span>{24}</li>
-					<li><span class="font-eggplant-dark">{25}:</span>{26} {27}</li>
+					<li>{21}:<span class="font-eggplant-dark">{22}</span></li>
+					<li>{23}:<span class="font-eggplant-dark">{24}</span></li>
+					<li>{25}:<span class="font-eggplant-dark">{26} {27}</span></li>
 				</ul>
 			</div>
-			<div class="span6 left size18">
+			<div class="span6 left size18 pdd1">
 				<ul class="list-circle">
-					<li><span class="font-eggplant-dark">{28}:</span>0</li>
-					<li><span class="font-eggplant-dark">{29}:</span>{30}</li>
-					<li class="font-eggplant-dark">{31}:</li>
+					<li>{28}:<span class="font-eggplant-dark">0</span></li>
+					<li>{29}:<span class="font-eggplant-dark">{30}</span></li>
+					<li>{31}:</li>
 				</ul>
 			</div>
 		</div>
@@ -106,7 +106,7 @@
 			<blockquote>
 				<i class="user"></i>
 				<h2>&ldquo;{18}&rdquo;</h2>
-				<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={34}&amp;hotelid=100322665&amp;link="></script>
+				<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={32}&amp;hotelid=100322665&amp;link="></script>
 			</blockquote>
 		</div>
 	</div>
