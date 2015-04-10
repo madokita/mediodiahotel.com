@@ -137,13 +137,13 @@
 			<blockquote>
 				<i class="user"></i>
 				<h2>&ldquo;{15}&rdquo;</h2>
-				<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={27}&amp;hotelid=100322665&amp;link="></script>
+				<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={27}&amp;hotelid=10907510&amp;link="></script>
 			</blockquote>
 		</div>
 	</div>
 </section>
 
-<section id="madrid-map" class="bg-grey pdd8">
+<section id="madrid-map" class="bg-grey pdd8 bg-mosaic">
 	<div class="row-fluid mapa">
 		<div class="container center">
 			<ul class="row-fluid">

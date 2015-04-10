@@ -120,7 +120,7 @@ blockquote {
 	margin:0 auto;
 	max-width: 1200px;
 	padding: 30px 30px 45px;
-	width: 60%;
+	width: 80%;
 }
 .modal {
 	border-radius: 0px;
@@ -133,7 +133,7 @@ blockquote {
 .bg-grey {
 	background:#f2f1e9;
 }
-.bg-mosaic {
+.bg-mosaic, .offers-listing-wrapper .offer .offer-link, .offers-detail-wrapper .offer-wrapper {
 	background: url("/files/bg-grey.jpg") 0 0 ;
 }
 /* BOX */
@@ -184,7 +184,7 @@ blockquote {
 #footer {
 	font-size:14px;
 }
-.size16, #menu_aux1 li a {
+.size16, #menu_aux1 li a, .offers-listing-wrapper .rss-text {
 	font-size:16px !important;
 }
 
@@ -230,7 +230,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	width: 0;
 }
 
-a{
+a, .offer-button, .engine_mashup.inline.one-row>div form .button-group input[type="submit"]{
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
@@ -296,9 +296,7 @@ a{
 	color: #fff;
 	opacity: .9;
 	padding:13px 56px 13px 20px;
-
 	text-decoration: none;
-
 }
 
 .scroll-to-info:hover {
@@ -450,6 +448,14 @@ a{
 div.hssurveys_full div.note {
 	line-height:20px;
 }
+.loading-indicator img {
+	width:auto;
+}
+#loading-msg {
+	color: #000!important;
+	font-size: 22px !important;
+	line-height: 0em !important;
+}
 /*------GALERIA------*/
 .ngg-gallery-singlepic-image img {
 	display:none;
@@ -597,7 +603,56 @@ blockquote #hsRating a.mirai_btReview, blockquote #hsRating a.mirai_btReview:lin
 /* PHOTOS */
 
 /* OFFERS */
-
+.offers-listing-wrapper h2 {
+	display:none;
+}
+.offers-listing-wrapper, .offers-detail-wrapper {
+	margin:0 auto;
+}
+.offers-listing-wrapper .offer .offer-title, .rooms-detail-wrapper .offer .offer-title {
+	font-size:26px;
+}
+.offers-listing-wrapper .offer .offer-description, .offers-listing-wrapper .offer .offer-includes, .rooms-detail-wrapper .offer .offer-description, .rooms-detail-wrapper .offer .offer-includes, .back a {
+	font-size:18px;
+}
+.offers-listing-wrapper .offer .offer-link, .offers-detail-wrapper .offer-wrapper {
+	border:none;
+	text-decoration:none;
+}
+.offers-detail-wrapper .offer-header-content-wrapper .offer-title {
+	font-size:28px;
+}
+.offers-detail-wrapper .offer-header-content-wrapper .offer-description, .offers-detail-wrapper .offer-header-content-wrapper .offer-board, .offers-detail-wrapper .offer-header-content-wrapper .offer-social-links {
+	font-size:18px;
+}
+.offers-detail-wrapper .offer-features-wrapper .offer-boxes-wrapper .offer-box.main-box span {
+	font-size:24px !important;
+}
+.offers-detail-wrapper .offer-features-wrapper .offer-boxes-wrapper .offer-box span {
+	font-size:16px !important;
+	line-height:16px !important;
+}
+.offers-detail-wrapper .section h4, .offers-detail-wrapper .offer-calendar-wrapper .calendar-nights-label {
+	font-size:26px !important;
+}
+.offers-detail-wrapper .offer-calendar-wrapper .offer-button, .offers-detail-wrapper .offer-calendar-wrapper .offer-button:disabled, .offers-detail-wrapper .offer-calendar-wrapper .offer-button:disabled:hover{
+	background:#ccc;
+	border:none;
+	border-radius:3px;
+	color:#aaa;
+	height:50px;
+	text-shadow:none;
+	width:200px;
+}
+.offers-detail-wrapper .offer-calendar-wrapper .offer-date .ui-datepicker-inline, .offers-detail-wrapper .offer-calendar-wrapper .calendar-nights-field, .offers-detail-wrapper .offer-calendar-wrapper .calendar-legend-wrapper .calendar-legend-item {
+	font-size:18px;
+}
+/* colores para fechas seleccionadas en el calendario del motor y en el de detalle de ofertas */
+.ui-datepicker-calendar ._selected-date span, .ui-datepicker-calendar ._selected-date a, .ui-datepicker-calendar ._checkin-date span, .ui-datepicker-calendar ._checkin-date a, .ui-datepicker-calendar ._checkout-date span, .ui-datepicker-calendar ._checkout-date a, .offers-detail-wrapper .offer-calendar-wrapper .offer-date .ui-datepicker-inline .calendar-legend-offer-day._checkin-date a, .offers-detail-wrapper .offer-calendar-wrapper .offer-date .ui-datepicker-inline .calendar-legend-offer-day._selected-date a, .offers-detail-wrapper .offer-calendar-wrapper .offer-date .ui-datepicker-inline .calendar-legend-offer-day._checkout-date a {
+	background:#dbbb44;
+	color:#fff;
+	font-weight: normal;
+}
 /* REVIEWS */
 div.hssurveys_full .comments p.commentsPerson span.date {
 	color: #000 !important;
@@ -657,7 +712,7 @@ div.hssurveys_full {
 /* FONT FAMILY PARA EL MOTOR */
 .bookingstep1 #motor_reservas #mirai_bookentrance #mirai_be7 input, .bookingstep1 #mirai_be0 input, .bookingstep1 #mirai_be0 span, .bookingstep1 #mirai_be0 select {
 	font-family: Arial;
-}   
+}
 .bookingstep1 #header {}
 .bookingstep1 #header .content {
 	margin: 0 auto;
@@ -760,7 +815,9 @@ ul#menu_web > li a:hover, ul#menu_web > li.current_page_item a {
 /* submit buttons (engine mashup, form, blog...) */
 .engine_mashup > div form .button-group input[type="submit"], .mapa .formRuta input.calculaRuta, #mirai_be7 input, #respond .form-submit #submit, .wpcf7 .wpcf7-form input.wpcf7-submit, .offers-listing-wrapper .offer .offer-button, .offers-detail-wrapper .offer-calendar-wrapper .offer-button, #modal-engine .button-group input[type="submit"], .link-btn {
 	background:#dbbb44;
+	box-shadow:none;
 	color:#fcfafa;
+	font-size:20px;
 	padding:6px 10px;
 	text-shadow:none;
 }
@@ -955,6 +1012,13 @@ ul#menu_web > li a:hover, ul#menu_web > li.current_page_item a {
 @media (min-width: 1200px) {
 h2 {
 	font-size:24px;
+	}
+/*OFFERS*/
+.offers-listing-wrapper .offer .offer-title, .rooms-detail-wrapper .offer .offer-title {
+	font-size:24px;
+}
+.offers-listing-wrapper .offer .offer-description, .offers-listing-wrapper .offer .offer-includes, .rooms-detail-wrapper .offer .offer-description, .rooms-detail-wrapper .offer .offer-includes {
+	font-size:17px;
 	}
 }
 /* ipad portrait - landscape */

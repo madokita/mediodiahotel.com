@@ -1,0 +1,41 @@
+<section id="top-image" class="pdd0">
+	<div class="pos-r">
+		<figure>
+				[get_image id="396" align="full-width" ]
+		</figure>
+		<div class="layer-img"></div>
+	</div>
+	<!--MOTOR-->
+	[mi_exec_widget id=mirai_texto number=10]
+	[mi_exec_widget id=mirai_engine number=2]
+	[mi_exec_widget id=mirai_texto number=11]
+	<!--END MOTOR-->
+	</div>
+</section>
+
+<section id="legal1">
+	<div class="container center">
+		<h1 class="deco">{1}<span></span></h1>
+		<div class="left">
+			<h2>{2}</h2>
+			<p>{3}</p>
+			<p>{4}</p>
+			<p class="mrg2">{5}</p>
+			<hr>
+		</div>
+	</div>
+</section>
+<section id="legal2" class="bg-grey">
+	<div class="container">
+		<h2>{6}</h2>
+		<p class="mrg2">{7}</p>
+		<hr>
+	</div>
+</section>
+<section id="legal3">
+	<div class="container">
+		<h2>{8}</h2>
+		<p class="mrg2">{9}</p>
+		<hr>
+	</div>
+</section>

@@ -46,7 +46,7 @@
 	<hr>
 </section>
 
-<section id="location-map" class="bg-grey pdd8">
+<section id="location-map" class="bg-grey pdd8 bg-mosaic">
 	<div class="container center">
 		<h1 class="deco">{6}<span></span></h1>
 		<h2>{7}</h2>
@@ -106,7 +106,7 @@
 			<blockquote>
 				<i class="user"></i>
 				<h2>&ldquo;{18}&rdquo;</h2>
-				<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={32}&amp;hotelid=100322665&amp;link="></script>
+				<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={32}&amp;hotelid=10907510&amp;link="></script>
 			</blockquote>
 		</div>
 	</div>

@@ -1,0 +1,19 @@
+<section id="top-image" class="pdd0">
+	<div class="pos-r">
+		<figure>
+				[get_image id="396" align="full-width" ]
+		</figure>
+		<div class="layer-img"></div>
+	</div>
+	<!--MOTOR-->
+	[mi_exec_widget id=mirai_texto number=10]
+	[mi_exec_widget id=mirai_engine number=2]
+	[mi_exec_widget id=mirai_texto number=11]
+	<!--END MOTOR-->
+	</div>
+</section>
+<section id="reviews">
+	<div class="container center">
+		<h1 class="deco">{1}<span></span></h1>
+	</di>
+</section>
